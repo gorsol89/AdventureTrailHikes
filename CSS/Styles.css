@@ -1,14 +1,14 @@
 header {
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #FFA96A;
+    background-color: #D3E1E2;
     pad
 }
 h1 {
     font-size: large;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: lightblue; 
+    background-color: #EEF1F6; 
 }
 h2 {
     font-size: x-large;
@@ -21,7 +21,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFA96A;
+    background-color: #A5DBDD;
 }
 li {
     float:left;
@@ -34,10 +34,10 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: green;
+    background-color: #407c87;
 }
 footer {
-    background-color:bisque;
+    background-color: #A5DBDD;
     text-align: center;
 
 }
