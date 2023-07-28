@@ -4,22 +4,22 @@ header, footer {
     background-color: #D3E1E2;
 }
 h1 {
-    font-size: large;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: #EEF1F6; 
+    text-align: center;
+    text-decoration: underline;
 }
 h2 {
-    font-size: x-large;
-
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bolder;
 }
-h4 {
-    font-size: small;
-}
-section {
+h3 {
+    font-size: smaller;
+    font-weight: normal;
     
 }
-
+ol {
+    list-style-type:none;
+}
 ul {
     position: sticky;
     list-style-type: none;
