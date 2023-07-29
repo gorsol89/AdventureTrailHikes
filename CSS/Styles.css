@@ -1,8 +1,3 @@
-header, footer {
-    font-size: x-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #4b91f1;
-}
 h1 {
     text-align: left;
 }
@@ -14,17 +9,15 @@ h2 {
 h3 {
     font-weight: normal;
 }
-h4 {
+h3 {
     font-size: smaller;
     text-align: center;
     font-weight: lighter;
-    
 }
 ol {
     list-style-type:none;
     display:flex;
     text-align:right;
-
 }
 ul {
     position: sticky;
@@ -33,10 +26,14 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #4b91f1;
-
+}
+header, footer {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #4b91f1;
 }
 li {
-    float:right;
+    float:left;
 }
 li a {
     display: block;
