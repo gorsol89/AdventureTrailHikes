@@ -1,18 +1,10 @@
 h1 {
-    text-align: left;
+    text-align: float;
 }
 h2 {
     text-align: center;
     font-size: xx-large;
     font-weight: bolder;
-}
-h3 {
-    font-weight: normal;
-}
-h3 {
-    font-size: smaller;
-    text-align: center;
-    font-weight: lighter;
 }
 ol {
     list-style-type:none;
@@ -44,4 +36,11 @@ li a {
 }
 li a:hover {
     background-color: #A5DBDD;
+}
+article {
+    background-image: url("/Images/muligbilde.jpg"); 
+    height: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
