@@ -1,13 +1,12 @@
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 
-}
-html {
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1800px;
     font-size: 18px;
+    margin: 0 auto;
+    padding: 5px;
+    
 }
 
 ol {
@@ -42,18 +41,12 @@ li a {
 li a:hover {
     background-color: #A5DBDD;
 }
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 #hero {
-    width: 100%;
-    height: 100vh;
-    background: url(/muligbilde.jpg);
+    background-image: url(/Images/tim-tiedemann-149766-unsplash.jpg);
     background-repeat: no-repeat;
     background: cover;
-    color: white;
+    color: black;
 }
 .container {
     width: 90%;
@@ -62,11 +55,12 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20rem;
+    
+
 }
 .container .info h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 .container .info h2 {
     font-size: 1.5rem;
@@ -75,6 +69,15 @@ li a:hover {
 .container .info p {
     font-size: 1.2rem;
     max-width: 70%;
+}
+.container .info {
+    background-color: #EEF1F6;
+    opacity: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
 }
 .container .info a {
     text-decoration: none;
@@ -85,4 +88,51 @@ li a:hover {
     padding: 0.5em 2em;
     margin-top: 2rem;
     color: #4b91f1;
+    opacity: 100%;
+}
+.hike-overview {
+    background-color: #EEF1F6;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 800px;
+    gap: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.short-hikes {
+    background-image: url(/Images/shorthikes\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    display: flex;
+    flex: 1;
+    position: relative;
+    border: 4px solid black;
+}
+.camping-hikes {
+    background-image: url(/Images/holly-mandarich-326667-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex: 1;
+    position: relative;
+    border: 4px solid black;
+}
+.long-hikes {
+    background-image: url(/Images/longhikes.jpg);
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    position: relative;
+    border: 4px solid black;
+}
+h3 {
+    position: bottom;
+    color: #EEF1F6;
 }
