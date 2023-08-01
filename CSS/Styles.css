@@ -55,7 +55,6 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 
 }
 .container .info h1 {
@@ -90,13 +89,49 @@ li a:hover {
     color: #4b91f1;
     opacity: 100%;
 }
-.hike-overview {
+
+.short-hikes {
+    background-image: url(/Images/shorthikes\ \(2\).jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    grid-template-columns: repeat(3, 1fr);
+    display:block;
+    position: relative;
+    border: 4px solid black;
+}
+.camping-hikes {
+    background-image: url(/Images/sebastien-goldberg-BKLHxgbYFDI-unsplash.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    grid-template-columns: repeat(3, 1fr);
+    display:block;
+    position: relative;
+    border: 4px solid black;
+}
+.long-hikes {
+    background-image: url(/Images/ian-SNoJy06KkY4-unsplash.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    grid-template-columns: repeat(3, 1fr);
+    display:block;
+    position: relative;
+    border: 4px solid black;
+}
+.our-hikes {
+    background-color: #EEF1F6;
+    align-items: center;
+    gap: 100px;
+    display: grid;
+    gap: 50px;
+}
+
+.popular-hikes {
     background-color: #EEF1F6;
     font-weight: bold;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    height: 800px;
+    height: 1200px;
     gap: 50px;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -104,35 +139,22 @@ li a:hover {
     padding-right: 50px;
 
 }
-.short-hikes {
-    background-image: url(/Images/shorthikes\ \(2\).jpg);
-    background-repeat: no-repeat;
-    background-size:auto;
-    background-position: center;
-    display: flex;
-    flex: 1;
-    position: relative;
-    border: 4px solid black;
+.hike-heading {
+    background-color: #EEF1F6;
+    text-align: center;
 }
-.camping-hikes {
+.popular-hike1 {
+    background-image: url(/Images/alfred-boivin-XoM0eYSXWMs-unsplash.jpg);
+}
+.popular-hike2 {
+    background-image: url(/Images/chad-madden-8mCMQSq41gQ-unsplash.jpg);
+}
+.popular-hike3 {
     background-image: url(/Images/holly-mandarich-326667-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    flex: 1;
-    position: relative;
-    border: 4px solid black;
 }
-.long-hikes {
-    background-image: url(/Images/longhikes.jpg);
-    background-position: fill;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex: 1;
-    position: relative;
-    border: 4px solid black;
+h1 {
+    background-color: #EEF1F6;
 }
-h3 {
-    position: bottom;
-    color: #EEF1F6;
+.guide-image {
+    background-image: url(/Images/kitera-dent-jWv1ILisuSc-unsplash.jpg);
 }
