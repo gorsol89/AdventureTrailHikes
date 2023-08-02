@@ -154,7 +154,7 @@ li a:hover {
     background-image: url(/Images/holly-mandarich-326667-unsplash.jpg);
 }
 h1 {
-    background-color: #EEF1F6;
+
 }
 
 .guide-container {
@@ -164,7 +164,6 @@ h1 {
     background-color: #EEF1F6;
     padding-top: 40px;
     padding-bottom: 40px;
-
   }
   
   .guide-image {
@@ -180,7 +179,6 @@ h1 {
   }
 .sustainabilty-conainer {
     background: url(/Images/alex-guillaume-1q8WWEQrkVY-unsplash.jpg) no-repeat;
-    
     border: 2px solid black;
     padding-right: 800px;
 }
@@ -191,4 +189,22 @@ h1 {
     opacity: 0.6;
     font-weight: bold;
     padding: 35px;
+}
+.icon {
+    color: black;
+    font-size: 100px;
+}
+.section {
+    background-color:#A5DBDD;
+}
+.faq-background {
+    background-image: url(/Images/faq2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+}
+.faq-text {
+    padding: 100px;
+    padding-right: 500px;
+    font-weight: bold;
 }
