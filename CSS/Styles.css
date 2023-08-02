@@ -42,7 +42,8 @@ li a:hover {
     background-color: #A5DBDD;
 }
 
-#hero {
+.hero {
+    size: 100vh;
     background-image: url(/Images/tim-tiedemann-149766-unsplash.jpg);
     background-repeat: no-repeat;
     background: cover;
@@ -53,8 +54,8 @@ li a:hover {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
 
 }
 .container .info h1 {
@@ -155,6 +156,39 @@ li a:hover {
 h1 {
     background-color: #EEF1F6;
 }
-.guide-image {
-    background-image: url(/Images/kitera-dent-jWv1ILisuSc-unsplash.jpg);
+
+.guide-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEF1F6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
+  
+  .guide-image {
+    max-width: 100%;
+    max-height:100%;
+  }
+  
+  .guide-text {
+    font-weight: lighter;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+.sustainabilty-conainer {
+    background: url(/Images/alex-guillaume-1q8WWEQrkVY-unsplash.jpg) no-repeat;
+    
+    border: 2px solid black;
+    padding-right: 800px;
+}
+.sustainability-text {
+    margin: 30px;
+    background-color: #EEF1F6;
+    border: 1px solid black;
+    opacity: 0.6;
+    font-weight: bold;
+    padding: 35px;
 }
