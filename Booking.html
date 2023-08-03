@@ -21,9 +21,25 @@
         </ul>
     </header>
     <main>
-        <h1>SKAL EN LAGE ET CONTACT US FORM? FINNES MULIGHETER I HTML/CSS</h1>
-        <h2>Må undersøkes</h2>
-        <img src="/Images/Background Adventure Trail Hikes.png">
+        <img src="/Images/booking2.jpg" alt="DENNE MÅ ENDRES" height="400px" width="500px"> 
+        <h1>Booking</h1>
+        <h2>Fill out this form with your information</h2>
+        <h2>or you can call us on: TELEFONNUMMER</h2>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <h3>How many in the your traveling party?</h3>
+            <input type="radio" id="alone" name="number_of_people" value="Alone">
+            <label for="alone">Traveling alone</label><br>
+            <input type="radio" id="two" name="number_of_people" value="Two">
+            <label for="css">Two</label><br>
+            <input type="radio" id="A group of more than two people" name="number_of_people" value="A group of more than two people">
+            <label for="two">A group of more than two people</label>
+            <input type="submit" value="Submit">
+          </form>
+    
     </main>
     <footer>
         <ul>
