@@ -102,6 +102,7 @@ button {
     margin-top: 3rem;
     color: #4b91f1;
     text-align: center;
+    gap: 20vh;
         
 }
     
@@ -133,8 +134,6 @@ button {
     display: flex;
     
 }
-
-
 .guide-container {
     display: flex;
     align-items: center;
@@ -143,7 +142,6 @@ button {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  
   .guide-image {
     max-width: 100%;
     max-height:100%;
@@ -154,19 +152,21 @@ button {
     font-size: 15px;
     padding-left: 50px;
     padding-right: 50px;
+    max-width: 700px;
   }
 .sustainabilty-conainer {
-    background: url(/Images/alex-guillaume-1q8WWEQrkVY-unsplash.jpg) no-repeat;
+    background: url(/Images/sustainabilty3.jpg) no-repeat;
     border: 2px solid black;
-    padding-right: 800px;
+    padding-right: 700px;
 }
 .sustainability-text {
     margin: 30px;
     background-color: #EEF1F6;
     border: 1px solid black;
-    opacity: 0.6;
+    opacity: 0.8;
     font-weight: bold;
-    padding: 35px;
+    padding: 50px;
+    max-width: 90%;
 }
 .icon {
     color: black;
@@ -207,8 +207,6 @@ img {
     max-height: 90%;
 }
 
-
-
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 7fr;
@@ -239,3 +237,7 @@ img {
     min-height: 100vh;
     object-fit: cover;
 }
+.guide-image {
+    max-width: 100%;
+    max-height:100%;
+  }
