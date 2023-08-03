@@ -12,7 +12,16 @@ body {
 ol {
     list-style-type:none;
     display:flex;
-    text-align:right;
+    text-align:left;
+    background-color:#EEF1F6
+}
+.about-hikes{
+    background-color: #EEF1F6;
+    padding: 2vh;
+    display: grid;
+    column-gap: 50px;
+    justify-content: space-evenly;
+    grid-gap: 2vh;
 }
 ul {
     position: sticky;
@@ -43,12 +52,12 @@ li a:hover {
 }
 
 .hero {
-    size: 100vh;
-    background-image: url(/Images/tim-tiedemann-149766-unsplash.jpg);
+    background-image: url(/Images/prøvebilde.jpg);
+    background-position: center;
     background-repeat: no-repeat;
-    background: cover;
     color: black;
 }
+
 .container {
     width: 90%;
     max-width: 1000px;
@@ -56,15 +65,19 @@ li a:hover {
     display: flex;
     align-items: left;
     justify-content: left;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 
 }
 .container .info h1 {
     font-size: 3rem;
     margin-bottom: 5rem;
+
 }
 .container .info h2 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    
 }
 .container .info p {
     font-size: 1.2rem;
@@ -72,90 +85,55 @@ li a:hover {
 }
 .container .info {
     background-color: #EEF1F6;
-    opacity: 70%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    opacity: 86%;
+    padding-left: 2vh;
+    padding-top: 2vh;
+    padding-right: 2vh;
+    padding-bottom: 2vh;
 
 }
-.container .info a {
+button {
     text-decoration: none;
     display: inline-block;
     background-color: #A5DBDD;
     border-radius: 6px;
     font-size: 1.8rem;
-    padding: 0.5em 2em;
-    margin-top: 2rem;
+    padding: 0.8em 3em;
+    margin-top: 3rem;
     color: #4b91f1;
-    opacity: 100%;
+    text-align: center;
+        
 }
-
+    
 .short-hikes {
     background-image: url(/Images/shorthikes\ \(2\).jpg);
     background-image: cover;
     background-repeat: no-repeat;
-    grid-template-columns: repeat(3, 1fr);
-    display:block;
-    position: relative;
+    display: flex;
+    justify-content: space-evenly;
     border: 4px solid black;
 }
 .camping-hikes {
     background-image: url(/Images/sebastien-goldberg-BKLHxgbYFDI-unsplash.jpg);
     background-image: cover;
     background-repeat: no-repeat;
-    grid-template-columns: repeat(3, 1fr);
-    display:block;
-    position: relative;
+    display: flex;
+    justify-content: space-evenly;
     border: 4px solid black;
 }
 .long-hikes {
     background-image: url(/Images/ian-SNoJy06KkY4-unsplash.jpg);
     background-image: cover;
     background-repeat: no-repeat;
-    grid-template-columns: repeat(3, 1fr);
-    display:block;
-    position: relative;
+    display: flex;
+    justify-content: space-evenly;
     border: 4px solid black;
 }
 .our-hikes {
-    background-color: #EEF1F6;
-    align-items: center;
-    gap: 100px;
-    display: grid;
-    gap: 50px;
+    display: flex;
+    
 }
 
-.popular-hikes {
-    background-color: #EEF1F6;
-    font-weight: bold;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    height: 1200px;
-    gap: 50px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-
-}
-.hike-heading {
-    background-color: #EEF1F6;
-    text-align: center;
-}
-.popular-hike1 {
-    background-image: url(/Images/alfred-boivin-XoM0eYSXWMs-unsplash.jpg);
-}
-.popular-hike2 {
-    background-image: url(/Images/chad-madden-8mCMQSq41gQ-unsplash.jpg);
-}
-.popular-hike3 {
-    background-image: url(/Images/holly-mandarich-326667-unsplash.jpg);
-}
-h1 {
-
-}
 
 .guide-container {
     display: flex;
@@ -208,9 +186,6 @@ h1 {
     padding-right: 500px;
     font-weight: bold;
 }
-.image-container {
-    
-}
 form {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -224,4 +199,43 @@ form {
 }
 .submit {
     padding-bottom: 50px;
+}
+
+img {
+    display: block;
+    max-width: 70%;
+    max-height: 90%;
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-gap: 10px;
+    overflow: hidden;
+    height: 80vh;
+}
+.gallery {
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.lil-nav {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.lil-nav a{
+    height: 200px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.lil-nav_img {
+    object-fit: cover;
+}
+.gallery_img {
+    scroll-snap-align: start;
+    margin-bottom: 10px;
+    min-height: 100vh;
+    object-fit: cover;
 }
