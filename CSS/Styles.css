@@ -1,6 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 1800px;
+    max-width: 1200px;
     font-size: 18px;
     margin: 0 auto;
     padding: 5px;
@@ -43,10 +43,6 @@ ul li{
     background-color: #A5DBDD;
   }
   
-  .active {
-    background-color: #04AA6D;
-  }
-  
 
   @media screen and (max-width: 500px) {
     .navbar a {
@@ -63,12 +59,51 @@ ul li{
 
 .about-hikes{
     background-color: #EEF1F6;
-    padding: 2vh;
-    display: grid;
-    column-gap: 50px;
-    justify-content: space-evenly;
-    grid-gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+
+    @media only screen and (min-width: 400px){
+        .extra-info {
+          flex-direction: row;
+        }
+      }
+      
+      @media only screen and (min-width: 620px){
+        body{
+          padding: 0px;
+        }
+      }
+    
 }
+
+.our-hikes {
+    display: flex;
+    flex-direction: column;
+}
+.short-hikes {
+    background-image: url(/Images/shorthikes\ \(2\).jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    border: 4px solid black;
+}
+.camping-hikes {
+    background-image: url(/Images/sebastien-goldberg-BKLHxgbYFDI-unsplash.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    border: 4px solid black;
+}
+.long-hikes {
+    background-image: url(/Images/ian-SNoJy06KkY4-unsplash.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    border: 4px solid black;
+}
+
 
 .hero {
     background-image: url(/Images/prøvebilde.jpg);
@@ -124,35 +159,7 @@ button {
     gap: 20vh;
         
 }
-    
-.short-hikes {
-    background-image: url(/Images/shorthikes\ \(2\).jpg);
-    background-image: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-evenly;
-    border: 4px solid black;
-}
-.camping-hikes {
-    background-image: url(/Images/sebastien-goldberg-BKLHxgbYFDI-unsplash.jpg);
-    background-image: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-evenly;
-    border: 4px solid black;
-}
-.long-hikes {
-    background-image: url(/Images/ian-SNoJy06KkY4-unsplash.jpg);
-    background-image: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-evenly;
-    border: 4px solid black;
-}
-.our-hikes {
-    display: flex;
-    
-}
+
 .guide-container {
     display: flex;
     align-items: center;
@@ -176,7 +183,6 @@ button {
 .sustainabilty-conainer {
     background: url(/Images/sustainabilty3.jpg) no-repeat;
     border: 2px solid black;
-    padding-right: 700px;
 }
 .sustainability-text {
     margin: 30px;
@@ -193,28 +199,56 @@ button {
 }
 .faq-background {
     background-image: url(/Images/faq2.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.8;
 }
+h1 {
+    font-size: 400%;
+}
 .faq-text {
-    padding: 100px;
-    padding-right: 500px;
-    font-weight: bold;
+    text-align: left;
+    padding-left: 20%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+  
 }
-form {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-image: url(/Images/123.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    font-weight: bold;
 
+.icon_faq {
+    font-size: 300%;
+    display: flex;
+    float: left;
+    padding-right: 5%;
+    
+    
 }
-.submit {
+.parent_booking {
+  background-color: #EEF1F6;
+  display: flex;
+  padding: 3%;
+  align-items: center;
+  
+}
+.booking_img {
+    width: fill;
+    background-repeat: no-repeat;
+    padding-left: 20%;
+}
+.booking_form {
+    background-color: #EEF1F6;
+    gap: top;
+    gap:bottom;
     padding-bottom: 50px;
+    padding-left: 20%;
+}
+input {
+    width: 80%;
+    margin: 10px;
+    padding: 22px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    font-size: 100%;
 }
 
 img {
@@ -286,7 +320,12 @@ img {
     color: white;
 }
 .saftey_img {
-    background-image: url(/Images/);
-    position: relative;
+    background-repeat: no-repeat;
+    width: fill;
+    padding-left: 25%;
+
+}
+.icon_safety {
+    font-size: 400%;
 }
 
