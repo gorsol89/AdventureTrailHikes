@@ -6,20 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="CSS/Styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Adventure Trail Hikes</title>
 </head>
 <body>
     <header>
-        <img src="/Images/logo-color.png" alt="Adventure Trail Hikes - Furfil your wanderlust" width="400" height="200"/>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="OurHikes.html">Our Hikes</a></li>
-            <li><a href="OurGuides.html">Guides</a></li>
-            <li><a href="Sustainability.html">Sustainability</a></li>
-            <li><a href="Health&Safety.html">Health & Safety</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-            <li><a href="Booking.html">Booking</a></li>
-        </ul>
+        <div class="navbar">
+            <div class="logo"><img src="/Images/logo-color.png" alt="DENNE MÅ ENDRES" width=35%>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i> Home </a></li>
+                    <li><a href="OurHikes.html"><i class="fa-solid fa-person-hiking"></i> Our Hikes </a></li>
+                    <li><a href="OurGuides.html"><i class="fa-solid fa-people-group"></i> Guides </a></li>
+                    <li><a href="Sustainability.html"><i class="fa-solid fa-seedling"></i> Sustainability </a></li>
+                    <li><a href="Health&Safety.html"><i class="fa-solid fa-shield"></i> Health & Safety </a></li>
+                    <li><a href="FAQ.html"><i class="fa-solid fa-clipboard-question"></i> FAQ </a></li>
+                    <li><a href="Booking.html"><i class="fa-regular fa-envelope-open"></i> Booking </a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section>
@@ -34,50 +40,57 @@
                 </div>
             </div>
             </section>
-            <h2>Pictures from hikes with Adventure Trails</h2>
-                <div class="wrapper"> 
-                    <nav class="lil-nav">
-                        <a href="#image-1">
-                            <img class="lil-nav_img" src="/Images/gallery1.jpg" alt="DENNE MÅ ENDRES"/>
-                    </a>
-                        <a href="#image-2">
-                        <img class="lil-nav_img" src="/Images/gallery2.jpg" alt="DENNE MÅ ENDRES"/>
-                    </a>
-                        <a href="#image-3">
-                    <img class="lil-nav_img" src="/Images/gallery3.jpg" alt="DENNE MÅ ENDRES"/>
-                </a>
-                <a href="#image-4">
-                    <img class="lil-nav_img" src="/Images/gallery4.jpg" alt="DENNE MÅ ENDRES"/>
-                </a>
-                <a href="#image-5">
-                    <img class="lil-nav_img" src="/Images/gallery5.jpg" alt="DENNE MÅ ENDRES"/>
-                </a>
-                <a href="#image-6">
-                    <img class="lil-nav_img" src="/Images/gallery6.jpg" alt="DENNE MÅ ENDRES"/>
-                </a>
-                <a href="#image-7">
-                    <ing class="lil-nav_img" src="/Images/gallery7.jpg" alt="DENNE MÅ ENDRES"/>
-                </a>
-            </nav>
-                </nav>
-                <div class="gallery">
-                    <img class="gallery" id="image-1" src="/Images/gallery1.jpg" alt="DENNE MÅ ENDRES"/>
-                    <img class="gallery" id="image-2" src="/Images/gallery2.jpg" alt="DENNE MÅ ENDRES"/>
-                    <img class="gallery" id="image-3" src="/Images/gallery3.jpg" alt="DENNE MÅ ENDRES"/>
-                    <img class="gallery" id="image-4" src="/Images/gallery4.jpg" alt="DENNE MÅ ENDRES"/>
-                    <img class="gallery" id="image-5" src="/Images/gallery5.jpg" alt="DENNE MÅ ENDRES"/>
-                    <img class="gallery" id="image-6" src="/Images/gallery6.jpg" alt="DENNE MÅ ENDRES"/>
-                    <img class="gallery" id="image-7" src="/Images/gallery7.jpg" alt="DENNE MÅ ENDRES"/>
+            <section>
+                <div class="image-carousel">
+                <h2>Pictures from some of our hikes with Adventure Trails</h2>
+                    <div class="wrapper"> 
+                        <nav class="lil-nav">
+                            <a href="#image-1">
+                                <img class="lil-nav_img" src="/Images/gallery1.jpg" alt="DENNE MÅ ENDRES"/>
+                            </a>
+                            <a href="#image-2">
+                                <img class="lil-nav_img" src="/Images/gallery2.jpg" alt="DENNE MÅ ENDRES"/>
+                            </a>
+                            <a href="#image-3">
+                                <img class="lil-nav_img" src="/Images/gallery3.jpg" alt="DENNE MÅ ENDRES"/>
+                            </a>
+                            <a href="#image-4">
+                                <img class="lil-nav_img" src="/Images/gallery4.jpg" alt="DENNE MÅ ENDRES"/>
+                            </a>
+                            <a href="#image-5">
+                                <img class="lil-nav_img" src="/Images/gallery5.jpg" alt="DENNE MÅ ENDRES"/>
+                            </a>
+                            <a href="#image-6">
+                                <img class="lil-nav_img" src="/Images/gallery6.jpg" alt="DENNE MÅ ENDRES"/>
+                            </a>
+                            <a href="#image-7">
+                                <img class="lil-nav_img" src="/Images/gallery7.jpg" alt="DENNE MÅ ENDRES"/>
+                            </a>
+                        </nav>
+                        <div class="gallery">
+                            <img class="gallery" id="image-1" src="/Images/gallery1.jpg" alt="DENNE MÅ ENDRES"/>
+                            <img class="gallery" id="image-2" src="/Images/gallery2.jpg" alt="DENNE MÅ ENDRES"/>
+                            <img class="gallery" id="image-3" src="/Images/gallery3.jpg" alt="DENNE MÅ ENDRES"/>
+                            <img class="gallery" id="image-4" src="/Images/gallery4.jpg" alt="DENNE MÅ ENDRES"/>
+                            <img class="gallery" id="image-5" src="/Images/gallery5.jpg" alt="DENNE MÅ ENDRES"/>
+                            <img class="gallery" id="image-6" src="/Images/gallery6.jpg" alt="DENNE MÅ ENDRES"/>
+                            <img class="gallery" id="image-7" src="/Images/gallery7.jpg" alt="DENNE MÅ ENDRES"/>
+                        </div>
                 </div>
-        </section>
+            </section>
     </main>
     <footer>
-        <ul>
-            <li><a href="www.facebook.com">Facebook</a></li>
-            <li><a href="www.instagram.com">Instagram</a></li>
-            <li><a href="www.tripadvisor.com">Tripadvisor</a></li>
-        </ul>
-        <h3>Design and coded by &#169; Gøril Solheim | 2023 </h3>
-    </footer>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="www.facebook.com"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                    <li><a href="www.instagram.com"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    <li><a href="mailto:someone@yoursite.com"><i class="fa-regular fa-envelope"></i>Email Us</a></li>
+                    <li><a href="/Booking.html"><i class="fa-solid fa-location-arrow"></i>Booking</a></li>
+                </ul>
+            <h3>&#169; Gøril Solheim | 2023 </h3>
+            </nav>
+        </div>
+        </footer>
 </body>
 </html>

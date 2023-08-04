@@ -1,5 +1,3 @@
-
-
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 1800px;
@@ -8,13 +6,61 @@ body {
     padding: 5px;
     
 }
-
-ol {
-    list-style-type:none;
-    display:flex;
-    text-align:left;
-    background-color:#EEF1F6
+header, footer {
+    padding-bottom: 20px;
+    color: white;
 }
+nav {
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #4b91f1;
+    overflow: auto;
+    text-align: center;
+    position: absolute top 50% left 50%;
+  }
+
+ul li{
+    display: inline-block; 
+    padding: 1vh; 
+    text-align: center;
+  }
+  
+
+  .logo {
+    position: absolute, top 50% left 50%;
+  }
+  .navbar a {
+    
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+  }
+  .navbar a:hover {
+    background-color: #A5DBDD;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+}
+  
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+
 .about-hikes{
     background-color: #EEF1F6;
     padding: 2vh;
@@ -22,33 +68,6 @@ ol {
     column-gap: 50px;
     justify-content: space-evenly;
     grid-gap: 2vh;
-}
-ul {
-    position: sticky;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4b91f1;
-}
-header, footer {
-    font-size: x-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #4b91f1;
-}
-
-li {
-    float:left;
-}
-li a {
-    display: block;
-    color: #EEF1F6;
-    text-align:center;
-    padding: 25px 16px;
-    text-decoration: none;
-}
-li a:hover {
-    background-color: #A5DBDD;
 }
 
 .hero {
@@ -203,7 +222,15 @@ img {
     max-width: 70%;
     max-height: 90%;
 }
-
+.image-carousel {
+    font-size: 25px;
+    background-color:#EEF1F6;
+    width: 80%;
+    padding-top: 2vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    padding-bottom: 2vh;
+} 
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 7fr;
@@ -215,10 +242,13 @@ img {
     overflow: scroll;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+ 
 }
 .lil-nav {
     overflow-y: scroll;
     overflow-x: hidden;
+    
+    
 }
 .lil-nav a{
     height: 200px;
@@ -259,3 +289,4 @@ img {
     background-image: url(/Images/);
     position: relative;
 }
+
