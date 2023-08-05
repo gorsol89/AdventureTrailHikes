@@ -58,49 +58,45 @@ ul li{
 
 
 .about-hikes{
-    background-color: #EEF1F6;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    
+  border: solid black;
+  display: inline-flex;
 
-    @media only screen and (min-width: 400px){
-        .extra-info {
-          flex-direction: row;
-        }
-      }
-      
-      @media only screen and (min-width: 620px){
-        body{
-          padding: 0px;
-        }
-      }
-    
 }
+.short_hikes_card, .camping_hikes_card, .long_hikes_card  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: left;
+    font-family: arial;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
 
 .our-hikes {
     display: flex;
     flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 .short-hikes {
     background-image: url(/Images/shorthikes\ \(2\).jpg);
-    background-image: cover;
-    background-repeat: no-repeat;
-    flex: 1;
-    border: 4px solid black;
 }
 .camping-hikes {
-    background-image: url(/Images/sebastien-goldberg-BKLHxgbYFDI-unsplash.jpg);
-    background-image: cover;
-    background-repeat: no-repeat;
-    flex: 1;
-    border: 4px solid black;
+    background-image: url(/Images/bookingheader.jpg);
 }
 .long-hikes {
     background-image: url(/Images/ian-SNoJy06KkY4-unsplash.jpg);
-    background-image: cover;
+}
+
+.short-hikes, .camping-hikes, .long-hikes {
+    background-image: fill;
     background-repeat: no-repeat;
+    opacity: 90%;
     flex: 1;
+    padding: 5%;
     border: 4px solid black;
 }
 
@@ -205,7 +201,7 @@ button {
     opacity: 0.8;
 }
 h1 {
-    font-size: 400%;
+    font-size: 300%;
 }
 .faq-text {
     text-align: left;
