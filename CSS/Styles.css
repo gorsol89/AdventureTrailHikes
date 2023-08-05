@@ -33,7 +33,6 @@ ul li{
     position: absolute, top 50% left 50%;
   }
   .navbar a {
-    
     text-align: center;
     color: white;
     text-decoration: none;
@@ -42,7 +41,6 @@ ul li{
   .navbar a:hover {
     background-color: #A5DBDD;
   }
-  
 
   @media screen and (max-width: 500px) {
     .navbar a {
@@ -55,7 +53,6 @@ ul li{
   clear:both;
   overflow:auto;
 }
-
 
 .about-hikes {
   border: solid black;
@@ -76,7 +73,7 @@ ul li{
     gap: 2px;
   }
 
-.our-hikes, {
+.our-hikes {
     display: flex;
     flex-direction: column;
     padding-top: 10%;
@@ -92,7 +89,7 @@ ul li{
     background-image: url(/Images/view3.jpg);
 }
 
-.short-hikes, .camping-hikes, .long-hikes,  {
+.short-hikes, .camping-hikes, .long-hikes {
     background-image: fill;
     background-repeat: no-repeat;
     opacity: 99;
@@ -143,21 +140,22 @@ ul li{
     padding-top: 2vh;
     padding-right: 2vh;
     padding-bottom: 2vh;
-
 }
-
 .guide-container {
     display: flex;
     background-color: #EEF1F6;    
+    display: inline-flex;
 }
-  .guide-image {
-   
-  }
-  
   .guide-text {
     font-weight: lighter;
     font-size: 85%;
     max-width: 700px;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+  }
+  .guide-image {
+    max-width: 30%;
+    max-height:30%;
   }
 .sustainabilty-conainer {
     background: url(/Images/sustainabilty3.jpg) no-repeat;
@@ -178,7 +176,7 @@ ul li{
 }
 .faq-background {
     background-image: url(/Images/faq2.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.8;
@@ -199,7 +197,6 @@ h1 {
     display: flex;
     float: left;
     padding-right: 5%;
-    
     
 }
 .parent_booking {
@@ -277,10 +274,7 @@ img {
     min-height: 100vh;
     object-fit: cover;
 }
-.guide-image {
-    max-width: 100%;
-    max-height:100%;
-  }
+
   .icon {
     color: black;
     font-size: 100px;
@@ -291,34 +285,31 @@ img {
 .card_overview {
     display: inline-flex;
     border: solid black;
-    padding-top: 2%;
-    padding-bottom: 2%;
 }
 
 .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 400px;
     margin: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
     text-align: left;
+    font-family: arial;
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    gap: 2 px;
-    padding: 1%;
+    gap: 2px;
   }
-.saftey_img {
-    background-repeat: no-repeat;
-    width: fill;
-    padding-left: 25%;
 
-}
 .icon_safety {
     font-size: 400%;
 }
 
-.button {
+button {
     background-color: #4b91f1;
     border: none;
     color: #EEF1F6;
     padding: 18px 30px;
-    font-size: 18px;
+    font-size: 22px;
+    display: inline-block;
 }
