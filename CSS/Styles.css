@@ -4,14 +4,11 @@ body {
     font-size: 18px;
     margin: 0 auto;
     padding: 5px;
-    
 }
+
 header, footer {
     padding-bottom: 20px;
     color: white;
-}
-nav {
-    position: relative;
 }
 
 .navbar {
@@ -19,87 +16,41 @@ nav {
     background-color: #4b91f1;
     overflow: auto;
     text-align: center;
-    position: absolute top 50% left 50%;
-  }
+    position: relative;
+}
 
-ul li{
-    display: inline-block; 
-    padding: 1vh; 
+ul li {
+    display: inline-block;
+    padding: 1vh;
     text-align: center;
-  }
-  
+}
 
-  .logo {
-    position: absolute, top 50% left 50%;
-  }
-  .navbar a {
-    text-align: center;
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar a {
     color: white;
     text-decoration: none;
     font-size: 35px;
-  }
-  .navbar a:hover {
-    background-color: #A5DBDD;
-  }
+}
 
-  @media screen and (max-width: 500px) {
+.navbar a:hover {
+    background-color: #A5DBDD;
+}
+
+@media screen and (max-width: 500px) {
     .navbar a {
-      float: none;
-      display: block;
+        float: none;
+        display: block;
     }
 }
-  
-.container{
-  clear:both;
-  overflow:auto;
-}
 
-.about-hikes {
-  border: solid black;
-  display: inline-flex;
-
+.container {
+    clear: both;
+    overflow: auto;
 }
-.short_hikes_card, .camping_hikes_card, .long_hikes_card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    margin: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
-    text-align: left;
-    font-family: arial;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    gap: 2px;
-  }
-
-.our-hikes {
-    display: flex;
-    flex-direction: column;
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
-.short-hikes {
-    background-image: url(/Images/view1.jpg);
-}
-.camping-hikes {
-    background-image: url(/Images/view2.jpg);
-}
-.long-hikes {
-    background-image: url(/Images/view3.jpg);
-}
-
-.short-hikes, .camping-hikes, .long-hikes {
-    background-image: fill;
-    background-repeat: no-repeat;
-    opacity: 99;
-    font-weight: bold;
-    flex: 1;
-    padding: 5%;
-    border: 4px solid black;
-    margin: 2vh;
-}
-
 
 .hero {
     background-image: url(/Images/prøvebilde.jpg);
@@ -117,199 +68,110 @@ ul li{
     justify-content: left;
     padding-top: 20vh;
     padding-bottom: 20vh;
-
 }
+
 .container .info h1 {
     font-size: 3rem;
     margin-bottom: 5rem;
-
 }
+
 .container .info h2 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
-    
 }
+
 .container .info p {
     font-size: 1.2rem;
     max-width: 70%;
 }
+
 .container .info {
     background-color: #EEF1F6;
     opacity: 86%;
-    padding-left: 2vh;
-    padding-top: 2vh;
-    padding-right: 2vh;
-    padding-bottom: 2vh;
+    padding: 2vh;
 }
-.guide-container {
-    display: flex;
-    background-color: #EEF1F6;    
-    display: inline-flex;
-}
-  .guide-text {
-    font-weight: lighter;
-    font-size: 85%;
-    max-width: 700px;
-    flex-wrap: wrap;
-    padding-bottom: 10%;
-  }
-  .guide-image {
-    max-width: 30%;
-    max-height:30%;
-  }
-.sustainabilty-conainer {
-    background: url(/Images/sustainabilty3.jpg) no-repeat;
-    border: 2px solid black;
-}
-.sustainability-text {
-    margin: 30px;
-    background-color: #EEF1F6;
+
+
+/* button- 52*/
+.button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px;
+    outline: 0;
     border: 1px solid black;
-    opacity: 0.8;
-    font-weight: bold;
-    padding: 50px;
-    max-width: 90%;
-}
-
-.section {
-    background-color:#A5DBDD;
-}
-.faq-background {
-    background-image: url(/Images/faq2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.8;
-}
-h1 {
-    font-size: 300%;
-}
-.faq-text {
-    text-align: left;
-    padding-left: 20%;
-    padding-bottom: 10%;
-    padding-top: 10%;
-  
-}
-
-.icon_faq {
-    font-size: 300%;
-    display: flex;
-    float: left;
-    padding-right: 5%;
-    
-}
-.parent_booking {
-  background-color: #EEF1F6;
-  display: flex;
-  padding: 3%;
-  align-items: center;
-  
-}
-.booking_img {
-    width: fill;
-    background-repeat: no-repeat;
-    padding-left: 20%;
-}
-.booking_form {
-    background-color: #EEF1F6;
-    gap: top;
-    gap:bottom;
-    padding-bottom: 50px;
-    padding-left: 20%;
-}
-input {
-    width: 80%;
-    margin: 10px;
-    padding: 22px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    font-size: 100%;
-}
-
-img {
-    display: block;
-    max-width: 70%;
-    max-height: 90%;
-}
-.image-carousel {
-    font-size: 25px;
-    background-color:#EEF1F6;
-    width: 80%;
-    padding-top: 2vh;
-    padding-right: 2vh;
-    padding-left: 2vh;
-    padding-bottom: 2vh;
-} 
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr 7fr;
-    grid-gap: 10px;
-    overflow: hidden;
-    height: 80vh;
-}
-.gallery {
-    overflow: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
- 
-}
-.lil-nav {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    
-    
-}
-.lil-nav a{
-    height: 200px;
-    display: flex;
-    margin-bottom: 10px;
-}
-.lil-nav_img {
-    object-fit: cover;
-}
-.gallery_img {
-    scroll-snap-align: start;
-    margin-bottom: 10px;
-    min-height: 100vh;
-    object-fit: cover;
-}
-
-  .icon {
-    color: black;
-    font-size: 100px;
-    background: #4b91f1;
-    padding-left: 50%;
-    color: white;
-}
-.card_overview {
-    display: inline-flex;
-    border: solid black;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    margin: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
-    text-align: left;
-    font-family: arial;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    gap: 2px;
-  }
-
-.icon_safety {
-    font-size: 400%;
-}
-
-button {
-    background-color: #4b91f1;
-    border: none;
-    color: #EEF1F6;
-    padding: 18px 30px;
-    font-size: 22px;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
     display: inline-block;
+    text-align: center;
+    
+.button-52:after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.button-52:hover:after {
+    top: 0px;
+    left: 0px;
+}
+
+@media (min-width: 768px) {
+    .button-52 {
+        padding: 13px 50px;
+    }
+}
+}
+
+/* General carousel styles */
+.image-carousel {
+    text-align: center;
+    font-size: 25px;
+    background-color: #EEF1F6;
+    padding: 3vh;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%; 
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.carousel {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px; 
+}
+
+
+.carousel-item {
+    width: 300px; 
+    height: 500px;
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.carousel-item:hover {
+    transform: scale(1.10); 
 }
