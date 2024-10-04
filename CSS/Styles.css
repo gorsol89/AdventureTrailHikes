@@ -125,11 +125,6 @@ ul li {
 
 /* index.html*/
 
-.container {
-    clear: both;
-    overflow: auto;
-}
-
 .hero {
     background-image: url(/Images/prøvebilde.jpg);
     background-position: center;
@@ -146,6 +141,8 @@ ul li {
     justify-content: left;
     padding-top: 20vh;
     padding-bottom: 20vh;
+    clear: both;
+    overflow: auto;
 }
 
 .container .info h1 {
@@ -251,7 +248,7 @@ ul li {
     transform: scale(1.10); 
 }
 
-/*hikes*/
+/*hikes.html*/
 
 .about-hikes {
     display: flex;
@@ -262,7 +259,7 @@ ul li {
     max-width: 1200px;
 }
 
-/* Individual hike card styling */
+
 .hike-card {
     background-color: #f9f9f9;
     border-radius: 8px;
