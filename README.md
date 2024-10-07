@@ -11,3 +11,7 @@ Images
 
 all images are from unsplash.com
 
+product cards
+
+https://www.w3schools.com/howto/howto_css_product_card.asp
+
